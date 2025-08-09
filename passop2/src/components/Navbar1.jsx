@@ -21,7 +21,7 @@ const Navbar1 = () => {
             </a>
           </li>
         </ul> */}
-        <button className="text-white bg-green-500 my-5 rounded-full flex gap-2 justify-between items-center">
+        <button className="text-white bg-green-500 my-5 rounded-full flex gap-2 justify-between items-center ring-white ring-1">
           <img
             className="invert w-10 p-1"
             src="/icons/github.png"
