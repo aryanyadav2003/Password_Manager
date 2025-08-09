@@ -1,0 +1,9 @@
+# netlify.toml
+[build]
+  command = "npm run build"
+  publish = "build" # for React, change to "dist" for Vite or others
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
