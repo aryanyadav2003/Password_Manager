@@ -1,7 +1,7 @@
 # netlify.toml
 [build]
   command = "npm run build"
-  publish = "build" # for React, change to "dist" for Vite or others
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
